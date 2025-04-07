@@ -33,5 +33,5 @@ document.addEventListener("click", (event) => {
     if (event.target.classList.contains("thumb")) {
         const fullImg = event.target.closest(".gallery").querySelector(".gallery-img");
         fullImg.src = event.target.src;
-    }
-})
+    };
+});
