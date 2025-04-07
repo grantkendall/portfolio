@@ -17,12 +17,6 @@ a {
     font-size: 24px;
 }
 
-span {
-    float: right;
-    font-size: 24px;
-    padding-right: 4px;
-}
-
 /* Left Column */
 header {
     padding: 4px 0px;
@@ -32,9 +26,16 @@ header {
 .column-left {
     height: 100vh;
     flex: 1;
+    position: relative;
 }
 
 .project-list {
+    padding: 4px 0px;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
     padding: 4px 0px;
 }
 
@@ -92,4 +93,5 @@ li:hover {
 
 .description {
     font-size: 24px;
+    padding: 4px 0px;
 }
