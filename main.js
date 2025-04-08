@@ -15,19 +15,19 @@ projectList.forEach(name => {
             targetProject.classList.add("active");
         };
 
-        resetGallery();
+        // resetGallery();
     });
 });
 
-function resetGallery() {
-    const gallery = document.querySelector(".gallery");
-    const fullImg = document.querySelector(".gallery-img");
-    const firstThumb = gallery.querySelector(".thumb");
+// function resetGallery() {
+//     const gallery = document.querySelector(".gallery");
+//     const fullImg = document.querySelector(".gallery-img");
+//     const firstThumb = gallery.querySelector(".thumb");
 
-    if (firstThumb) {
-        fullImg.src = firstThumb.src;
-    };
-};
+//     if (firstThumb) {
+//         fullImg.src = firstThumb.src;
+//     };
+// };
 
 document.addEventListener("click", (event) => {
     if (event.target.classList.contains("thumb")) {
